@@ -13,15 +13,15 @@ Both versions share the same public methods and use the same `QInfo` data struct
 
 ```
 FIFO_queue/
-├── FIFO.sln               # Visual Studio solution
-├── FIFO/                  # Linked list implementation
+├── FIFO.sln                    # Visual Studio solution
+├── FIFO/                       # Linked list implementation
 │   ├── main.cpp
-│   ├── Fifo.h / Fifo.cpp  # FQueue + FQItem + FifoException
-│   └── Global.h / Global.cpp  # QInfo struct
-└── array_FIFO/            # Circular buffer implementation
+│   ├── Fifo.h / Fifo.cpp       # FQueue + FQItem + FifoException
+│   └── Global.h / Global.cpp   # QInfo struct
+└── array_FIFO/                 # Circular buffer implementation
     ├── main.cpp
-    ├── Fifo.h / Fifo.cpp  # FQueue + FifoException
-    └── Global.h / Global.cpp  # QInfo struct
+    ├── Fifo.h / Fifo.cpp       # FQueue + FifoException
+    └── Global.h / Global.cpp   # QInfo struct
 ```
 
 ---
